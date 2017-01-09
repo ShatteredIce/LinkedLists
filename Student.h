@@ -1,6 +1,9 @@
 #ifndef STUDENT_H
 #define STUDENT_H
 
+//Student class, stored in Node*'s
+//Stores an integer id
+
 #include <iostream>
 
 using namespace std;

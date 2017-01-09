@@ -1,14 +1,18 @@
+//Node class for Main.cpp
+
 #include <iostream>
 #include "Node.h"
 #include "Student.h"
 
 using namespace std;
 
+//Constructor: stores a Student*, sets next to NULL
 Node::Node(Student* newStudent){
   student = newStudent;
   next = NULL;
 }
 
+//Deconstructor: deletes Student*, sets next to NULL
 Node::~Node(){
   delete student;
   next = NULL;

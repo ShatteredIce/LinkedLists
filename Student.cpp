@@ -1,3 +1,5 @@
+//Student class for Main.cpp
+
 #include <iostream>
 #include "Student.h"
 
